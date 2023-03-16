@@ -185,6 +185,7 @@ document.querySelector("#submit").addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
 
+// blog question & answer section
 const questionSection = () => {
   location.href = 'blog-question/index.html'
 }
