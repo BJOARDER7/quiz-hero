@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Question Section</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  <h2 class="text-success-emphasis fw-bold fs-2 text-center my-4">Question Bank:</h2>
+  <section class="container">
+   <div>
+    <h4>1. Difference among map, filter, forEach and find.</h4>
+    <table class="table table-bordered border-info">
+      
+      <tbody>
+        <tr class="text-center">
+          <td>map</td>
+          <td>filter</td>
+          <td>forEach</td>
+          <td>find</td>
+        </tr>
+        <tr class="text-justify">
+          <td>map() is used for getting all single value from an array.</td>
+          <td>filter() give that values from an array which is fulfilled the specific condition.</td>
+          <td>forEach() seperates all values from array but not return values.</td>
+          <td>find() return first value when first condition fulfilled.</td>
+        </tr>
+        
+      </tbody>
+    </table>
+   </div>
+   <div>
+    <h4>2. Difference among local storage, session storage and cookies.</h4>
+    <table class="table table-bordered border-info">
+      
+      <tbody>
+        <tr class="text-center">
+          <td>Local Storage</td>
+          <td>Session Staorage</td>
+          <td>Cookies</td>
+          
+        </tr>
+        <tr class="text-justify">
+          <td>localStorage store data in a browser with unlimited time in the same computer & same browser without browser unstall or compuer OS setup.</td>
+          <td>sessionStorage store data temporarily in a browser when tab closed or browser reopen data will be lost.</td>
+          <td>cookies stores data in a browser which connection or recognished the user when user newly open that browser, then server give the previous data for that user.</td>
+          
+        </tr>
+        
+      </tbody>
+    </table>
+   </div>
+   <div>
+    <h4>3. What is event loop? How does it work?</h4>
+    <table class="table table-bordered border-info">
+      
+      <tbody>
+        <tr>
+          <td>Event loop :</td>
+          <td>Event loop is a cycling ordering loop with execution of call stack. Event loop perform step by step execution.</td>
+                   
+        </tr>
+        <tr>
+          <td>How does work :</td>
+          <td>Firstly add new operation with call stack, then call to API, and then data will sent to event queue after timeout, finally complete execution of event loop.</td>
+                   
+        </tr>
+        
+      </tbody>
+    </table>
+   </div>
+   <div>
+    <h4 class="fw-semibold fs-4">4. How procedure of quizTimer() function work?</h4>
+    <p>
+      When click Submit Quiz, then quizTimer function off. <br>Before click Submit Quiz, setInterval() function do works as following-<br> 
+      setInterval() is a timer function which count time with 1 sec interval. If count goes to 60 sec, convert time to minute & timer again start. Set html of string output in minute & second. If count less than 60 sec & even number, then remove class 'text-red-300' and add to class 'text-red-700', when give odd number, then class change vice-versa.
+    </p>
+   </div>
+   <div>
+    <h4 class="fw-semibold fs-4">5. How procedure of chooseQuiz() function work?</h4>
+    <p>
+      chooseQuiz() is quiz function which give data by find & splice methods. When click answer option, then count one with option. By selecting question one by one, count increases and push answer with count sequentially. Finally diplay output.<br>
+    </p>
+   </div>
+  </section>
+</body>
+</html>
